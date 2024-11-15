@@ -133,7 +133,7 @@ def main(folders: list):
     :param folders: list, data folders
     :return filenames: list, data filenames
     :return data: list, filtered data list
-    :retrun perc_rect: 1D array, percent filtered per BODYPART
+    :return perc_rect: 1D array, percent filtered per BODYPART
     """
     filenames, data, perc_rect = import_folders(folders)
     return filenames, data, perc_rect

@@ -2,7 +2,7 @@ import sys
 import subprocess
 
 
-print('\n \n \n FRAMSHIFT NEURAL DIFFERNCES \n \n \n')
+print('\n \n \n FRAMSHIFT NEURAL DIFFERENCES \n \n \n')
 path = '/Volumes/Elements/Manuscripts/B-SOiD/bsoid_natcomm/workspace/neuralbehavior_durs.mat'
 fig_format = 'png'
 outpath = '/Volumes/Elements/Manuscripts/B-SOiD/bsoid_natcomm/figure_panels/neural_data/'

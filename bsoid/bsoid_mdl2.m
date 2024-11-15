@@ -10,7 +10,7 @@ function [behv_mdl,CV_amean,CV_asem,acc_fig] = bsoid_mdl2(f_10fps,grp,hldout,cv_
 %   CV_IT    Number of times to run cross-validation on. Default is 30.
 %   
 %   OUTPUTS:
-%   BEHV_MDL    Trained Multi-Class Support Vector Machine (SVM) classifier, based on Guassian kernels.
+%   BEHV_MDL    Trained Multi-Class Support Vector Machine (SVM) classifier, based on Gaussian kernels.
 %   CV_AMEAN    Cross-validated accuracy mean.
 %   CV_ASEM    Cross-validated accuracy standard error of the mean.
 %   ACC_FIG    Accuracy box plot figure showing all the cross validated data points.

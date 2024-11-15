@@ -140,7 +140,7 @@ for iType = 1:length(typeList)
       end
    end
    
-   % Test coding with limitting counter to 255:
+   % Test coding with limiting counter to 255:
    for k = [1,2,3, 250:260, 500:520, 750:800]  % Around multiples of 255
       x0     = myCast(ones(1, k), aType);
       [b, n] = RunLength(x0, 'byte');

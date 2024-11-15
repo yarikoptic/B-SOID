@@ -26,7 +26,7 @@ def bsoid_tsne(data: list, bodyparts=BODYPARTS, fps=FPS, comp=COMP):
     :param fps: scalar, argument specifying camera frame-rate in LOCAL_CONFIG
     :param comp: boolean (0 or 1), argument to compile data or not in LOCAL_CONFIG
     :return f_10fps: 2D array, features
-    :retrun f_10fps_sc: 2D array, standardized features
+    :return f_10fps_sc: 2D array, standardized features
     :return trained_tsne: 2D array, trained t-SNE space
     """
     win_len = np.int(np.round(0.05 / (1 / fps)) * 2 - 1)

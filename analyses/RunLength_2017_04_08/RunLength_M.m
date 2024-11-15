@@ -137,11 +137,11 @@ else                              % Decoding: [b, n] -> [x] ====================
    
    if vectorized                  % Vectorized: --------------------------------
       len   = length(n);          % Number of bins
-      d     = cumsum(n);          % Cummulated run lengths
+      d     = cumsum(n);          % Cumulated run lengths
       index = zeros(1, d(len));   % Pre-allocate
       index(d(1:len-1)+1) = 1;    % Get the indices where the value changes
       index(1)            = 1;    % First element is treated as "changed" also
-      index = cumsum(index);      % Cummulated indices
+      index = cumsum(index);      % Cumulated indices
       x     = b(index);
       
    else                           % Loop: --------------------------------------

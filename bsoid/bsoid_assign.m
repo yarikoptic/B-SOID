@@ -14,7 +14,7 @@ function [f_10fps,tsne_feats,grp,llh,bsoid_fig] = bsoid_assign(data,fps,comp,smt
 %           Otherwise, set it to 0 for individual segmentation/.csv file. Default is 1. 
 %   SMTH_HSTRY    BOXCAR smoothing using number of frames from before. Default ~40ms before.
 %   SMTH_FUTR    BOXCAR smoothing using number of frames from after. Default ~40ms after.
-%   KCLASS    Maximum number of assigment classes that the Gaussian Mixture Model will try to parse out. Default 50.
+%   KCLASS    Maximum number of assignment classes that the Gaussian Mixture Model will try to parse out. Default 50.
 %
 %   OUTPUTS:
 %   F_10FPS    Compiled features that were used to cluster, 10fps temporal resolution.
