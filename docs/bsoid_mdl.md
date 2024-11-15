@@ -29,7 +29,7 @@ function [OF_mdl,CV_amean,CV_asem,acc_fig] = bsoid_mdl(f_10fps,grp,hldout,cv_it,
 
 - `CV_AMEAN`    Cross-validated accuracy mean.
 
-- `CV_ASEM`    Cross-validated accuracy standard error fo the mean.
+- `CV_ASEM`    Cross-validated accuracy standard error of the mean.
 
 - `ACC_FIG`    Box plot showing classifier performance with individual data points representing a randomly subsampled test set from the hold out portion.
 

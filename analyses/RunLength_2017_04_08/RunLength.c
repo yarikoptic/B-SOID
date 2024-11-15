@@ -310,7 +310,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
      
      // Create 3rd output as post-processing: ----------------------------------
      // Collecting the indices on the fly might be faster, but doing this
-     // afterwards allowes to allocate the correct number of elements directly:
+     // afterwards allows to allocate the correct number of elements directly:
      if (nlhs == 3) {
         if (isColumn) {
            plhs[2] = mxCreateDoubleMatrix(nb, 1, mxREAL);
