@@ -3,4 +3,4 @@
 skip = .git*,*.css,.codespellrc
 check-hidden = true
 ignore-regex = ^\s*"image/\S+": ".*
-# ignore-words-list =
+ignore-words-list = idel,dum,sav,alph
